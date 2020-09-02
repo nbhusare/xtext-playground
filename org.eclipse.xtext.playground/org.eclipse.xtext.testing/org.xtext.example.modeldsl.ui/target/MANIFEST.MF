@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.xtext.example.modeldsl.ui
+Bundle-SymbolicName: org.xtext.example.modeldsl.ui; singleton:=true
+Require-Bundle: org.xtext.example.modeldsl,org.eclipse.xtext.ui,org.ec
+ lipse.xtext.ui.shared,org.eclipse.xtext.ui.codetemplates.ui,org.eclip
+ se.ui.editors;bundle-version="3.5.0",org.eclipse.ui.ide;bundle-versio
+ n="3.5.0",org.eclipse.ui,org.eclipse.compare,org.eclipse.xtext.builde
+ r,org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: My Company
+Import-Package: org.apache.log4j
+Export-Package: org.xtext.example.modeldsl.ui.contentassist,org.xtext.
+ example.modeldsl.ui.quickfix,org.xtext.example.modeldsl.ide.contentas
+ sist.antlr.internal,org.xtext.example.modeldsl.ui.internal,org.xtext.
+ example.modeldsl.ide.contentassist.antlr
+Bundle-Name: org.xtext.example.modeldsl.ui
+Bundle-Version: 1.0.0.202009021105
+Bundle-Activator: org.xtext.example.modeldsl.ui.internal.ModeldslActiv
+ ator
+

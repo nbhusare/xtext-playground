@@ -1,0 +1,11 @@
+grammar org.xtext.example.uidsl.UiDsl with org.eclipse.xtext.common.Terminals
+
+generate uiDsl "http://www.xtext.org/example/uidsl/UiDsl"
+
+import "http://www.xtext.org/example/modeldsl/ModelDsl" as modelDsl
+
+UiModelFile:
+	uiModels+=UiModel*;
+
+UiModel:
+	'ui' name=ID 'for' model=[modelDsl::Model];

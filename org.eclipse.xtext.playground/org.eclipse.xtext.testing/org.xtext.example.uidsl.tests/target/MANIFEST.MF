@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.xtext.example.uidsl.tests
+Bundle-SymbolicName: org.xtext.example.uidsl.tests; singleton:=true
+Export-Package: org.xtext.example.uidsl.tests;x-internal=true
+Bundle-Name: org.xtext.example.uidsl.tests
+Bundle-Version: 1.0.0.202009021105
+Require-Bundle: org.xtext.example.uidsl,org.junit;bundle-version="4.12
+ .0",org.eclipse.xtext.testing,org.eclipse.xtext.xbase.testing,org.ecl
+ ipse.xtext.xbase.lib;bundle-version="2.14.0"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: My Company
+

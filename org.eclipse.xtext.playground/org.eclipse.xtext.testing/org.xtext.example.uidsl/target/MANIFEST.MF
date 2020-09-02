@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.xtext.example.uidsl
+Bundle-SymbolicName: org.xtext.example.uidsl; singleton:=true
+Export-Package: org.xtext.example.uidsl.uiDsl.util,org.xtext.example.u
+ idsl.parser.antlr,org.xtext.example.uidsl.uiDsl,org.xtext.example.uid
+ sl,org.xtext.example.uidsl.services,org.xtext.example.uidsl.uiDsl.imp
+ l,org.xtext.example.uidsl.validation,org.xtext.example.uidsl.serializ
+ er,org.xtext.example.uidsl.parser.antlr.internal
+Bundle-Name: org.xtext.example.uidsl
+Bundle-Version: 1.0.0.202009021105
+Require-Bundle: org.eclipse.xtext,org.eclipse.xtext.xbase,org.eclipse.
+ equinox.common;bundle-version="3.5.0",org.xtext.example.modeldsl;bund
+ le-version="1.0.0";visibility:=reexport,org.eclipse.emf.ecore,org.ecl
+ ipse.xtext.xbase.lib;bundle-version="2.14.0",org.eclipse.xtext.util,o
+ rg.eclipse.emf.common,org.antlr.runtime;bundle-version="[3.2.0,3.2.1)
+ "
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: My Company
+Import-Package: org.apache.log4j
+

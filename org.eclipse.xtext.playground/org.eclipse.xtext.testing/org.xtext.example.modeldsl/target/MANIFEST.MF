@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.xtext.example.modeldsl
+Bundle-SymbolicName: org.xtext.example.modeldsl; singleton:=true
+Export-Package: org.xtext.example.modeldsl,org.xtext.example.modeldsl.
+ services,org.xtext.example.modeldsl.modelDsl.util,org.xtext.example.m
+ odeldsl.modelDsl,org.xtext.example.modeldsl.validation,org.xtext.exam
+ ple.modeldsl.parser.antlr.internal,org.xtext.example.modeldsl.modelDs
+ l.impl,org.xtext.example.modeldsl.serializer,org.xtext.example.modeld
+ sl.parser.antlr
+Bundle-Name: org.xtext.example.modeldsl
+Bundle-Version: 1.0.0.202009021105
+Require-Bundle: org.eclipse.xtext,org.eclipse.xtext.xbase,org.eclipse.
+ equinox.common;bundle-version="3.5.0",org.eclipse.emf.ecore,org.eclip
+ se.xtext.xbase.lib;bundle-version="2.14.0",org.eclipse.xtext.util,org
+ .eclipse.emf.common,org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: My Company
+Import-Package: org.apache.log4j
+

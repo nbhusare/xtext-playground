@@ -1,0 +1,9 @@
+grammar org.xtext.example.modeldsl.ModelDsl with org.eclipse.xtext.common.Terminals
+
+generate modelDsl "http://www.xtext.org/example/modeldsl/ModelDsl"
+
+ModelFile:
+	models+=Model*;
+	
+Model:
+	(abstract?='abstract')? 'model' name=ID;
